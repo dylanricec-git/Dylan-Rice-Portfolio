@@ -442,16 +442,7 @@
     border: none;
   }
 
-  /* Google Drive adds ~40px chrome top and bottom; offset iframe to hide it */
-  .video-embed.gdrive-embed {
-    overflow: hidden;
-    padding-bottom: 65%;
-  }
 
-  .video-embed.gdrive-embed iframe {
-    top: -42px;
-    height: calc(100% + 84px);
-  }
 
   .video-info {
     padding: 1rem 1.25rem;
@@ -713,9 +704,9 @@
 
     <!-- VIDEO 2 — Robo Hub Google Drive video (taller ratio for portrait content) -->
     <div class="video-card">
-      <div class="video-embed gdrive-embed" style="padding-bottom: 177%;">
+      <div style="width:100%;height:500px;overflow:hidden;">
         <iframe
-          src="https://drive.google.com/file/d/1YpM0uNKwTp7W3smKvpxhhIKQ-wy2KDdh/preview"
+          style="width:100%;height:100%;border:none;" src="https://drive.google.com/file/d/1YpM0uNKwTp7W3smKvpxhhIKQ-wy2KDdh/preview"
           title="Robo Hub content"
           allow="autoplay"
           allowfullscreen>
@@ -729,9 +720,9 @@
 
     <!-- VIDEO 3 — RecWell Skit -->
     <div class="video-card">
-      <div class="video-embed gdrive-embed">
+      <div style="width:100%;height:220px;overflow:hidden;">
         <iframe
-          src="https://drive.google.com/file/d/19PC-V9BwPpwvqb5XfKGVl5qudw3p4Cwz/preview"
+          style="width:100%;height:100%;border:none;" src="https://drive.google.com/file/d/19PC-V9BwPpwvqb5XfKGVl5qudw3p4Cwz/preview"
           title="UMass RecWell content"
           allow="autoplay"
           allowfullscreen>
@@ -761,9 +752,9 @@
 
     <!-- VIDEO 5 — RecWell Season Recap -->
     <div class="video-card">
-      <div class="video-embed gdrive-embed">
+      <div style="width:100%;height:220px;overflow:hidden;">
         <iframe
-          src="https://drive.google.com/file/d/1tdU5tHApP9ae74p-DjXuHFuDSsR8yCyA/preview"
+          style="width:100%;height:100%;border:none;" src="https://drive.google.com/file/d/1tdU5tHApP9ae74p-DjXuHFuDSsR8yCyA/preview"
           title="RecWell, Filmed and Edited"
           allow="autoplay"
           allowfullscreen>
@@ -793,9 +784,9 @@
 
     <!-- VIDEO 7 — Zach Bryan video essay -->
     <div class="video-card">
-      <div class="video-embed gdrive-embed">
+      <div style="width:100%;height:220px;overflow:hidden;">
         <iframe
-          src="https://drive.google.com/file/d/1LJEatS3WnAkHgK6v3EmGS3R9W0sKKAmP/preview"
+          style="width:100%;height:100%;border:none;" src="https://drive.google.com/file/d/1LJEatS3WnAkHgK6v3EmGS3R9W0sKKAmP/preview"
           title="Zach Bryan video essay"
           allow="autoplay"
           allowfullscreen>
@@ -809,9 +800,9 @@
 
     <!-- VIDEO 8 — RecWell Banquet Intro -->
     <div class="video-card">
-      <div class="video-embed gdrive-embed">
+      <div style="width:100%;height:220px;overflow:hidden;">
         <iframe
-          src="https://drive.google.com/file/d/1xFIkoEtgn3ntXPtaKs-Lg-VMH2Tf_O4R/preview"
+          style="width:100%;height:100%;border:none;" src="https://drive.google.com/file/d/1xFIkoEtgn3ntXPtaKs-Lg-VMH2Tf_O4R/preview"
           title="RecWell Banquet Intro"
           allow="autoplay"
           allowfullscreen>
@@ -825,9 +816,9 @@
 
     <!-- VIDEO 9 — RecWell Highlight Reel -->
     <div class="video-card">
-      <div class="video-embed gdrive-embed">
+      <div style="width:100%;height:220px;overflow:hidden;">
         <iframe
-          src="https://drive.google.com/file/d/1iOnqhaS9Jeq9W3w08LeJXk25at1B1hFK/preview"
+          style="width:100%;height:100%;border:none;" src="https://drive.google.com/file/d/1iOnqhaS9Jeq9W3w08LeJXk25at1B1hFK/preview"
           title="RecWell, Filmed and Edited"
           allow="autoplay"
           allowfullscreen>
